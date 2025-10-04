@@ -1,0 +1,1 @@
+function c(e,s){const t=[];for(let n=0;n<e;n++)t.push(s(n));return t}function f(e,s){const t=[];for(const n of e){const o=[n];for(;o.length>0;){const r=o.shift();r&&(t.push(r),o.push(...s(r)??[]))}}return t}export{f,c as l};

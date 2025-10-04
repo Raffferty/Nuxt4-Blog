@@ -1,0 +1,6 @@
+# START nuxt-robots (indexable)
+User-agent: *
+Disallow: 
+
+Sitemap: https://github.com/tratteo/nuxt_template/sitemap.xml
+# END nuxt-robots
