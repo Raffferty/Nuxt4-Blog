@@ -1,11 +1,15 @@
 ---
-title: "Consistency Is King: How to Stop Being a Weekend Warrior and Start Being a Weekday Wonder"
+title: "Consistency Is King: How to Stop Being a Weekend Warrior and Start Being
+  a Weekday Wonder"
 date: 2025-09-01
-description: Learn why training consistently is important, because it actually is. Discover tips and tricks to stay healty and always hit your daily goals. 
-tags: [tutorial, health]
+description: Learn why training consistently is important, because it actually
+  is. Discover tips and tricks to stay healty and always hit your daily goals.
+tags:
+  - tutorial
+  - health
 author: Matteo Beltrame
 author_avatar: /assets/avatars/trat.jpg
-author_description: "Coding guy"
+author_description: Coding guy
 thumbnail: /assets/articles/why-you-should-train.jpeg
 ---
 
@@ -13,7 +17,14 @@ Oh, hello there, fellow human who probably has a gym membership they use about a
 
 Here's the thing: sporadic bursts of motivation are like that friend who shows up unannounced, eats all your snacks, gets you super pumped about reorganizing your life, and then disappears for three months. Fun in the moment, but not exactly reliable for long-term success.
 
-::alert{type="info" title="Plot Twist" description="You don't need to be motivated to be consistent. In fact, consistency is what creates motivation, not the other way around! Mind = blown! 🤯"}
+::alert
+---
+description: You don't need to be motivated to be consistent. In fact,
+  consistency is what creates motivation, not the other way around! Mind =
+  blown! 🤯
+title: Plot Twist
+type: info
+---
 ::
 
 ## Why Your All-or-Nothing Approach Is All Wrong
@@ -24,12 +35,15 @@ By Wednesday, you've crashed harder than a computer running Windows Vista.
 
 The problem isn't your willpower or dedication – it's your approach. You're trying to go from couch potato to Olympic athlete overnight, and your body (and brain) are having none of it.
 
-::u-card{variant="subtle" class="mt-4"}
-#header 
-The Consistency Paradox
-
-#default
+::u-card
+---
+class: mt-4
+variant: subtle
+---
 The people who seem most disciplined aren't superhuman – they've just made their habits so small and automatic that they barely require willpower. They're like efficiency ninjas, but with better sleep schedules.
+
+#header
+The Consistency Paradox
 ::
 
 ## The Science Behind Why Consistency Actually Works
@@ -37,12 +51,29 @@ The people who seem most disciplined aren't superhuman – they've just made the
 Your brain is basically a pattern-seeking machine that loves routine more than a middle-aged person loves their morning coffee. When you do something consistently, you're literally rewiring your neural pathways. It's like creating a well-worn path through the forest – the more you walk it, the easier it becomes to follow.
 
 ### The Compound Effect in Action
+
 Small, consistent actions don't just add up – they multiply. Here's what happens when you stick with something:
 
-::u-table{:data='[{"Time Period":"Week 1-2", "What Happens":"Feels hard, requires lots of willpower", "Example":"Every workout is a battle"}, {"Time Period":"Week 3-4", "What Happens":"Starts to feel slightly easier", "Example":"You remember to pack gym clothes"}, {"Time Period":"Week 5-8", "What Happens":"Becomes part of routine", "Example":"You feel weird on rest days"}, {"Time Period":"Month 3+", "What Happens":"Automatic behavior", "Example":"Working out feels as natural as brushing teeth"}]'}
+::u-table
+---
+data:
+  - Time Period: Week 1-2
+    What Happens: Feels hard, requires lots of willpower
+    Example: Every workout is a battle
+  - Time Period: Week 3-4
+    What Happens: Starts to feel slightly easier
+    Example: You remember to pack gym clothes
+  - Time Period: Week 5-8
+    What Happens: Becomes part of routine
+    Example: You feel weird on rest days
+  - Time Period: Month 3+
+    What Happens: Automatic behavior
+    Example: Working out feels as natural as brushing teeth
+---
 ::
 
 ### Your Brain on Consistency
+
 - **Neural pathways strengthen** (like upgrading from dial-up to fiber optic internet)
 - **Decision fatigue decreases** (less mental energy wasted on "should I or shouldn't I?")
 - **Identity shifts** (you become someone who exercises, rather than someone trying to exercise)
@@ -50,13 +81,14 @@ Small, consistent actions don't just add up – they multiply. Here's what happe
 
 ## The Minimum Viable Habit: Start Stupidly Small
 
-Here's a revolutionary concept: what if your habit was so small that it would be harder to skip it than to do it? 
+Here's a revolutionary concept: what if your habit was so small that it would be harder to skip it than to do it?
 
 Instead of "I'm going to run 5 miles every day," try "I'm going to put on my running shoes every day." That's it. Just the shoes. You don't even have to leave the house.
 
 **Genius Alert:** Once the shoes are on, you'll probably feel silly just sitting there, so you might as well go for a walk. And once you're walking... well, you get the idea.
 
 ### Examples of Stupidly Small Habits
+
 - **Fitness:** Do one push-up, put on workout clothes, walk to the end of your driveway
 - **Nutrition:** Eat one piece of fruit, drink one glass of water upon waking, take one vitamin
 - **Mental Health:** Write one sentence in a journal, take three deep breaths, say one thing you're grateful for
@@ -70,10 +102,18 @@ The British cycling team had a revolutionary approach: instead of looking for ma
 
 Your life works the same way. You don't need to overhaul everything – you need to improve consistently.
 
-::alert{type="success" title="Math That Will Blow Your Mind" description="If you improve by just 1% every day for a year, you'll be 37 times better by the end. If you get 1% worse each day, you'll decline to nearly zero. The power of consistency is literally exponential! 📈"}
+::alert
+---
+description: If you improve by just 1% every day for a year, you'll be 37 times
+  better by the end. If you get 1% worse each day, you'll decline to nearly
+  zero. The power of consistency is literally exponential! 📈
+title: Math That Will Blow Your Mind
+type: success
+---
 ::
 
 ### Applying the 2% Rule
+
 - **Workout 2% longer** each week (10 minutes becomes 10.2 minutes)
 - **Add 2% more vegetables** to your meals
 - **Sleep 2% better** by improving your bedtime routine slightly
@@ -86,21 +126,26 @@ It sounds ridiculous because it IS ridiculous – ridiculously effective.
 Your environment is either working for you or against you. There's no neutral. If you want to be consistent, you need to design your surroundings to make the right choice the easy choice.
 
 ### Make Good Habits Obvious
+
 - **Visual cues everywhere:** Put your workout clothes where you'll see them
 - **Reduce friction:** Keep healthy snacks at eye level, hide the junk food
 - **Stack habits:** Attach new habits to existing ones (after I pour my morning coffee, I take my vitamins)
 
 ### Make Bad Habits Invisible
+
 - **Increase friction:** Put your phone in another room when you want to focus
 - **Remove temptations:** Don't buy food you don't want to eat
 - **Change your route:** If you always stop for donuts on Main Street, take Oak Street instead
 
-::u-card{variant="subtle" class="mt-4"}
+::u-card
+---
+class: mt-4
+variant: subtle
+---
+Make good habits 20 seconds easier to start and bad habits 20 seconds harder. Want to exercise? Sleep in your workout clothes. Want to eat less junk food? Put it in the basement freezer instead of the kitchen counter. Small friction changes, big behavioral results.
+
 #header
 The 20-Second Rule
-
-#default
-Make good habits 20 seconds easier to start and bad habits 20 seconds harder. Want to exercise? Sleep in your workout clothes. Want to eat less junk food? Put it in the basement freezer instead of the kitchen counter. Small friction changes, big behavioral results.
 ::
 
 ## The Power of Systems Over Goals
@@ -113,6 +158,7 @@ Goals are great for setting direction, but systems are what get you there. Goals
 The goal gives you a target, but the system gives you a process. And here's the kicker – if you fall in love with the process, the results become inevitable.
 
 ### Building Anti-Fragile Systems
+
 - **Plan for imperfection:** What's your minimum viable version when life gets crazy?
 - **Create comeback protocols:** How will you get back on track after you inevitably slip?
 - **Build in flexibility:** Can your habit adapt to different circumstances?
@@ -122,10 +168,18 @@ The goal gives you a target, but the system gives you a process. And here's the 
 
 Motivation is like a fair-weather friend – great when things are going well, but nowhere to be found when you actually need it. Successful people aren't more motivated; they've just built systems that don't depend on motivation.
 
-::alert{type="warning" title="Reality Check" description="You will not feel like doing it most days. That's not a bug in your system – that's a feature of being human. The goal is to do it anyway, especially when you don't feel like it. 🚀"}
+::alert
+---
+description: You will not feel like doing it most days. That's not a bug in your
+  system – that's a feature of being human. The goal is to do it anyway,
+  especially when you don't feel like it. 🚀
+title: Reality Check
+type: warning
+---
 ::
 
 ### Strategies for Motivationless Days
+
 1. **Make it smaller:** Can't do 30 minutes? Do 5. Can't do 5? Do 1.
 2. **Change the definition:** "Working out" can mean dancing to one song in your living room
 3. **Focus on showing up:** Consistency is about presence, not performance
@@ -134,18 +188,21 @@ Motivation is like a fair-weather friend – great when things are going well, b
 ## The Consistency Toolkit: Practical Strategies That Actually Work
 
 ### Track, But Make It Simple
+
 - **Habit tracker apps** that send gentle reminders
 - **Wall calendar** with big X's for completed days (don't break the chain!)
 - **Simple journal** noting how you feel before and after
 - **Photo logs** for visual progress tracking
 
 ### Accountability Without Shame
+
 - **Find a habit buddy** who shares your commitment to growth
 - **Join communities** of people working on similar goals
 - **Share your progress** without perfectionism pressure
 - **Hire a coach or trainer** if the investment motivates you
 
 ### Recovery Protocols for When Life Happens
+
 Life will happen. You'll get sick, go on vacation, have work deadlines, or just have a terrible week. That's not failure – that's being human.
 
 **The comeback formula:** Miss one day? Get back immediately. Miss two days? Never miss three. It's not about perfect streaks; it's about perfect recoveries.
@@ -170,16 +227,24 @@ The people you admire who seem to have their lives together aren't genetically s
 
 Start today. Start small. Start where you are with what you have. Your future self – the one who built incredible results through the simple act of showing up daily – is already cheering you on.
 
-::alert{type="success" title="Your Mission" description="Pick ONE habit. Make it stupidly small. Do it for 7 days. Then come back and tell us how it felt to keep a promise to yourself for a whole week. We're betting it feels pretty amazing! 💪"}
+::alert
+---
+description: Pick ONE habit. Make it stupidly small. Do it for 7 days. Then come
+  back and tell us how it felt to keep a promise to yourself for a whole week.
+  We're betting it feels pretty amazing! 💪
+title: Your Mission
+type: success
+---
 ::
 
-::author-about{:src="author_avatar" :name="author"}
+::author-about
+---
+:name: author
+:src: author_avatar
+---
 #body
 I build and ship stuff that comes into my mind while I am taking a shit. Fond of videogames development. Quantum Computing enthusiast
 
 #actions
-:u-button{icon="mdi:youtube" to="https://www.youtube.com/@matteo-beltrame" title="Youtube" variant="subtle" color="neutral" target="_blank"}
-:u-button{icon="mdi:instagram" to="https://www.instagram.com/tratteo" title="Instagram" variant="subtle" color="neutral" target="_blank"}
-:u-button{icon="mdi:linkedin" to="https://www.linkedin.com/in/matteo-beltrame" title="LinkedIn" variant="subtle" color="neutral" target="_blank"}
-:u-button{icon="mdi:github" to="https://github.com/tratteo" title="Github" variant="subtle" color="neutral" target="_blank"}
+:u-button{color="neutral" icon="mdi:youtube" target="_blank" title="Youtube" to="https://www.youtube.com/@matteo-beltrame" variant="subtle"} :u-button{color="neutral" icon="mdi:instagram" target="_blank" title="Instagram" to="https://www.instagram.com/tratteo" variant="subtle"} :u-button{color="neutral" icon="mdi:linkedin" target="_blank" title="LinkedIn" to="https://www.linkedin.com/in/matteo-beltrame" variant="subtle"} :u-button{color="neutral" icon="mdi:github" target="_blank" title="Github" to="https://github.com/tratteo" variant="subtle"}
 ::
