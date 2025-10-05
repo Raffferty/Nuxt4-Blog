@@ -7,7 +7,7 @@ tags:
   - tutorial
   - health
 author: Matteo Beltrame
-author_avatar: /assets/avatars/av.png
+author_avatar: /assets/avatars/av.webp
 author_description: Coding guy
 thumbnail: /assets/articles/why-you-should-drink-water.jpeg
 ---
