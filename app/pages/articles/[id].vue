@@ -44,11 +44,11 @@
             </div>
             <div class="flex flex-row items-center gap-4">
               <p class="flex flex-row items-center gap-1 typ-label">
-                <icon name="material-symbols:calendar-today-rounded" class="text-primary"></icon>
+                <Icon name="material-symbols:calendar-today-rounded" class="text-primary"></Icon>
                 {{ dayjs(data?.date).format("DD MMM YYYY") }}
               </p>
               <p class="flex flex-row items-center gap-1 typ-label">
-                <icon name="material-symbols:alarm-rounded" class="text-primary"></icon>
+                <Icon name="material-symbols:alarm-rounded" class="text-primary"></Icon>
                 {{ readingTimeText }}
               </p>
             </div>

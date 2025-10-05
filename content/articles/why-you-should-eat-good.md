@@ -1,6 +1,6 @@
 ---
 title: You Are What You Eat (So Please Don't Be a Hot Dog)
-date: 2025-10-04
+date: 2025-08-04
 description: Learn why eating good is important, because it actually is.
   Discover tips and tricks to stay healty and always hit your macros and micros.
 tags:

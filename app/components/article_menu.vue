@@ -8,7 +8,7 @@
     <div class="flex-col w-[18rem] hidden lg:flex items-stretch gap-2">
       <div class="flex flex-col gap-2 border border-default w-full rounded-lg p-4">
         <label class="flex flex-row items-center gap-2">
-          <icon name="lucide:table-of-contents" class="bg-primary text-primary"></icon>
+          <Icon name="lucide:table-of-contents" class="bg-primary text-primary"></Icon>
           <p class="font-semibold">On this page</p>
         </label>
         <TocNavigationMenu :toc="toc"></TocNavigationMenu>
@@ -71,10 +71,10 @@
           class="flex items-center gap-2 justify-between w-full bg-default/50 backdrop-blur-2xl group p-4"
         >
           <p class="font-semibold">On this page</p>
-          <icon
+          <Icon
             name="material-symbols:keyboard-arrow-down-rounded"
             class="group-data-[state=open]:rotate-180 transition-transform duration-200 size-5"
-          ></icon>
+          ></Icon>
         </div>
 
         <template #content>

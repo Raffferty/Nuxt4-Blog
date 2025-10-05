@@ -1,7 +1,7 @@
 ---
 title: "Consistency Is King: How to Stop Being a Weekend Warrior and Start Being
   a Weekday Wonder"
-date: 2025-10-03
+date: 2025-01-03
 description: Learn why training consistently is important, because it actually
   is. Discover tips and tricks to stay healty and always hit your daily goals.
 tags:

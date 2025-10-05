@@ -39,6 +39,7 @@ export default defineNuxtConfig({
     '@nuxtjs/seo',
     '@vueuse/nuxt',
     '@nuxt/image',
+    '@nuxt/icon',
   ],
   colorMode: {
     preference: 'dark', // default theme (if no preference in localStorage)
