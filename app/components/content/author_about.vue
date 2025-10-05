@@ -6,15 +6,15 @@
         <!-- <slot name="body"></slot> -->
       </div>
     </template>
-    <!-- <template #footer>
+    <template #footer>
             <div class="flex items-center gap-2">
                 <u-avatar :src="src"></u-avatar>
-                <p class="typ-label">{{ name }}</p>
-                <div class="ml-auto flex items-center gap-2 justify-end">
+                <!-- <p class="typ-label">{{ name }}</p> -->
+                <!-- <div class="ml-auto flex items-center gap-2 justify-end">
                     <slot name="actions"></slot>
-                </div>
+                </div> -->
             </div>
-        </template> -->
+        </template>
   </u-card>
 </template>
 
