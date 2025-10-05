@@ -1,10 +1,16 @@
 <template>
-    <ClientOnly v-if="!colorMode?.forced">
-        <u-switch checked-icon="i-lucide-moon" unchecked-icon="i-lucide-sun" v-model="isDark" color="neutral" size="sm"></u-switch>
-        <template #fallback>
-            <div class="size-8"></div>
-        </template>
-    </ClientOnly>
+  <ClientOnly v-if="!colorMode?.forced">
+    <u-switch
+      checked-icon="material-symbols:bedtime"
+      unchecked-icon="material-symbols:light-mode"
+      v-model="isDark"
+      color="neutral"
+      size="sm"
+    ></u-switch>
+    <template #fallback>
+      <div class="size-8"></div>
+    </template>
+  </ClientOnly>
 </template>
 <script lang="ts" setup>
 const colorMode = useColorMode();
