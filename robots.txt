@@ -2,5 +2,5 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://localhost/sitemap.xml
+Sitemap: https://github.com/Raffferty/Nuxt4-Blog/sitemap.xml
 # END nuxt-robots
