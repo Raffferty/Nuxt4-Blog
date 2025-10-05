@@ -4,7 +4,7 @@
   >
     <div class="max-w-[var(--content-width)] w-full flex items-center gap-2 py-4 px-4">
       <button class="flex flex-row items-center gap-2 font-semibold" @click="homeClicked">
-        <u-avatar src="/assets/avatars/av.png" size="xl"></u-avatar>
+        <u-avatar src="/assets/avatars/av.webp" size="xl"></u-avatar>
         <p class="text-highlighted text-nowrap">{{ appMeta.name }}</p>
       </button>
       <div class="w-full hidden md:flex items-center gap-2">

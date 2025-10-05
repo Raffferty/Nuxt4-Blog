@@ -12,7 +12,7 @@ export default {
     jobTitle: 'Entrepreneur',
   },
   //TODO change this to the actual production ready url for your app!
-  url: '',
-  icon: '',
-  contactEmail: '',
+  url: 'https://github.com/Raffferty/Nuxt4-Blog',
+  icon: '/favicon.ico',
+  contactEmail: 'bltmtt@gmail.com',
 }
