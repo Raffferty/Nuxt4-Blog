@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-8 items-stretch mt-4 max-w-2xl w-full mx-auto">
+  <div class="flex flex-col gap-8 items-stretch mt-4">
     <!-- <u-form-field label="Integrations and packages" description="Here you find all the packages integrated into this template">
             <div class="flex items-stretch gap-2 w-full justify-start flex-wrap">
                 <u-button to="/leaflet" variant="soft" label="Nuxt + Leaflet" icon="simple-icons:leaflet"></u-button>
@@ -13,7 +13,10 @@
                 <u-button to="/components" variant="soft" label="Implemented UI components" icon="mynaui:click-solid"></u-button>
             </div>
         </u-form-field> -->
-    <u-form-field label="Blog" description="Your great blog!">
+
+    <NuxtImg src="/assets/images/hero.webp" class="aspect-video object-cover" />
+
+    <u-form-field label="Your great blog!" description="">
       <div class="flex items-stretch gap-2 w-full justify-start flex-wrap">
         <u-button
           to="/articles"

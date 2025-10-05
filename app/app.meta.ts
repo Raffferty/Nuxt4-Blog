@@ -1,6 +1,6 @@
 export default {
   id: 'nuxt_template',
-  name: 'Nuxt Blog',
+  name: 'Power Blog',
   description: 'Build your Nuxt fullstack web apps in a blink.',
   author: {
     name: 'Matteo Beltrame',

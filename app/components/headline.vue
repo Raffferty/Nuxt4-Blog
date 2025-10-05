@@ -3,10 +3,10 @@
     class="w-full sticky top-0 z-[50000] flex justify-center transition bg-default/50 backdrop-blur-2xl h-[var(--headline-height)] border border-default"
   >
     <div class="max-w-[var(--content-width)] w-full flex items-center gap-2 py-4 px-4">
-      <button class="flex flex-row items-center gap-2 font-semibold" @click="homeClicked">
+      <u-button to="/" variant="link" class="flex flex-row items-center gap-2 font-semibold">
         <u-avatar src="/assets/avatars/avatar.jpg" size="xl"></u-avatar>
-        <p class="text-highlighted text-nowrap">{{ appMeta.name }}</p>
-      </button>
+        <p class="text-highlighted text-nowrap text-2xl">{{ appMeta.name }}</p>
+      </u-button>
       <div class="w-full hidden md:flex items-center gap-2">
         <u-navigation-menu
           class="w-full justify-center"
@@ -79,15 +79,7 @@ function updateBarTransparency() {
     const progress = scroll.y.value / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
     transparentBar.value = isNaN(progress) || progress <= 0;
 }
-function homeClicked(ev: Event) {
-    if (route.value.path.startsWith("/beauty")) {
-        document.documentElement.scrollTo({ top: 0 });
-    } else if (route.value.path !== "/") {
-        navigateTo("/");
-    } else {
-        document.documentElement.scrollTo({ top: 0 });
-    }
-}
+
 async function buildSectionElements() {
     if (!["/"].includes(route.value.path)) {
         navItems.value = [];
