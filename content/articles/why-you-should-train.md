@@ -8,7 +8,7 @@ tags:
   - tutorial
   - health
 author: Matteo Beltrame
-author_avatar: /assets/avatars/av.webp
+author_avatar: /assets/avatars/avatar.jpg
 author_description: Coding guy
 thumbnail: /assets/articles/why-you-should-train.jpeg
 ---
