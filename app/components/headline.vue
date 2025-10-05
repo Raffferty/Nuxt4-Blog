@@ -1,25 +1,35 @@
 <template>
-    <div class="w-full sticky top-0 z-[50000] flex justify-center transition bg-default/50 backdrop-blur-2xl h-[var(--headline-height)] border border-default">
-        <div class="max-w-[var(--content-width)] w-full flex items-center gap-2 py-4 px-4">
-            <button class="flex flex-row items-center gap-2 font-semibold" @click="homeClicked">
-                <u-avatar src="/assets/avatars/trat.jpg" size="xl"></u-avatar>
-                <p class="text-highlighted text-nowrap">{{ appMeta.name }}</p>
-            </button>
-            <div class="w-full hidden md:flex items-center gap-2">
-                <u-navigation-menu class="w-full justify-center" :items="navItems" :ui="{ viewport: 'max-w-[32rem]', link: 'text-toned' }"></u-navigation-menu>
-                <div class="flex items-center gap-4">
-                    <u-button to="https://www.youtube.com/@matteo-beltrame" icon="logos:youtube-icon" variant="link" target="_blank" color="error" label="Go to YouTube"></u-button>
-                    <ColorModeButton></ColorModeButton>
-                    <!-- <LocaleSelect></LocaleSelect> -->
-                </div>
-            </div>
-            <div class="md:hidden flex ml-auto">
-                <u-slideover class="" :ui="{ content: 'w-fit min-w-[16rem]' }">
-                    <u-button icon="material-symbols:menu-rounded" color="neutral" variant="soft"></u-button>
-                    <template #body>
-                        <div class="flex flex-col items-stretch gap-4">
-                            <u-navigation-menu class="w-full" orientation="vertical" :items="navItems"></u-navigation-menu>
-                            <u-button
+  <div
+    class="w-full sticky top-0 z-[50000] flex justify-center transition bg-default/50 backdrop-blur-2xl h-[var(--headline-height)] border border-default"
+  >
+    <div class="max-w-[var(--content-width)] w-full flex items-center gap-2 py-4 px-4">
+      <button class="flex flex-row items-center gap-2 font-semibold" @click="homeClicked">
+        <u-avatar src="/assets/avatars/trat.jpg" size="xl"></u-avatar>
+        <p class="text-highlighted text-nowrap">{{ appMeta.name }}</p>
+      </button>
+      <div class="w-full hidden md:flex items-center gap-2">
+        <u-navigation-menu
+          class="w-full justify-center"
+          :items="navItems"
+          :ui="{ viewport: 'max-w-[32rem]', link: 'text-toned' }"
+        ></u-navigation-menu>
+        <div class="flex items-center gap-4">
+          <!-- <u-button to="https://www.youtube.com/@matteo-beltrame" icon="logos:youtube-icon" variant="link" target="_blank" color="error" label="Go to YouTube"></u-button> -->
+          <ColorModeButton></ColorModeButton>
+          <!-- <LocaleSelect></LocaleSelect> -->
+        </div>
+      </div>
+      <div class="md:hidden flex ml-auto">
+        <u-slideover class="" :ui="{ content: 'w-fit min-w-[16rem]' }">
+          <u-button icon="material-symbols:menu-rounded" color="neutral" variant="soft"></u-button>
+          <template #body>
+            <div class="flex flex-col items-stretch gap-4">
+              <u-navigation-menu
+                class="w-full"
+                orientation="vertical"
+                :items="navItems"
+              ></u-navigation-menu>
+              <!-- <u-button
                                 to="https://www.youtube.com/@matteo-beltrame"
                                 icon="logos:youtube-icon"
                                 variant="link"
@@ -27,14 +37,14 @@
                                 color="error"
                                 label="Go to YouTube"
                                 class="justify-center"
-                            ></u-button>
-                            <ColorModeButton class="mx-auto"> </ColorModeButton>
-                        </div>
-                    </template>
-                </u-slideover>
+                            ></u-button> -->
+              <ColorModeButton class="mx-auto"> </ColorModeButton>
             </div>
-        </div>
+          </template>
+        </u-slideover>
+      </div>
     </div>
+  </div>
 </template>
 
 <script lang="ts" setup>

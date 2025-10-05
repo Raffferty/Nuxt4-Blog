@@ -1,40 +1,70 @@
 <template>
-    <article v-if="data" class="relative mx-auto flex flex-col items-stretch mt-4 mb-16 gap-6 md:gap-12 max-w-5xl self-center">
-        <header clas="flex flex-col">
-            <u-card class="relative shadow-xl overflow-hidden min-h-[20rem] flex flex-col" variant="subtle" :ui="{ body: 'flex flex-col flex-1' }">
-                <img class="z-[0] absolute inset-0 object-cover opacity-25 w-full h-full" :src="data?.thumbnail" :alt="data?.title" />
-                <div class="z-[1] flex-1 flex flex-col gap-2">
-                    <h1 class="typ-subtitle">{{ data?.title }}</h1>
-                    <p class="hidden md:block text-sm md:text-base">{{ data?.description }}</p>
-                    <div class="flex-1 flex flex-wrap flex-row items-end justify-between gap-2">
-                        <div class="gap-4 flex flex-col items-start">
-                            <div class="flex flex-row items-center gap-4">
-                                <u-avatar :src="data.author_avatar" alt="article author avatar" icon="material-symbols:person-rounded" size="3xl"></u-avatar>
-                                <div class="flex flex-col items-start">
+  <article
+    v-if="data"
+    class="relative mx-auto flex flex-col items-stretch mt-4 mb-16 gap-6 md:gap-12 max-w-5xl self-center"
+  >
+    <header clas="flex flex-col">
+      <u-card
+        class="relative shadow-xl overflow-hidden min-h-[20rem] flex flex-col"
+        variant="subtle"
+        :ui="{ body: 'flex flex-col flex-1' }"
+      >
+        <img
+          class="z-[0] absolute inset-0 object-cover opacity-25 w-full h-full"
+          :src="data?.thumbnail"
+          :alt="data?.title"
+        />
+        <div class="z-[1] flex-1 flex flex-col gap-2">
+          <h1 class="typ-subtitle">{{ data?.title }}</h1>
+          <p class="hidden md:block text-sm md:text-base">{{ data?.description }}</p>
+          <div class="flex-1 flex flex-wrap flex-row items-end justify-between gap-2">
+            <div class="gap-4 flex flex-col items-start">
+              <div class="flex flex-row items-center gap-4">
+                <u-avatar
+                  :src="data.author_avatar"
+                  alt="article author avatar"
+                  icon="material-symbols:person-rounded"
+                  size="3xl"
+                ></u-avatar>
+                <!-- <div class="flex flex-col items-start">
                                     <p class="font-bold">{{ data.author }}</p>
                                     <p v-if="data.author_description" class="typ-label">{{ data.author_description }}</p>
                                     <u-link v-if="authorEl" @click="() => authorEl?.scrollIntoView()" color="neutral" class="text-sm">About the author</u-link>
-                                </div>
-                            </div>
-                            <div class="flex flex-row gap-2 items-center flex-wrap">
-                                <u-badge v-for="k in data?.tags" color="primary" variant="soft">{{ k }}</u-badge>
-                            </div>
-                        </div>
-                        <div class="flex flex-row items-center gap-4">
-                            <p class="flex flex-row items-center gap-1 typ-label">
-                                <icon name="material-symbols:calendar-today-rounded" class="text-primary"></icon> {{ dayjs(data?.date).format("DD MMM YYYY") }}
-                            </p>
-                            <p class="flex flex-row items-center gap-1 typ-label"><icon name="material-symbols:alarm-rounded" class="text-primary"></icon> {{ readingTimeText }}</p>
-                        </div>
-                    </div>
-                </div>
-            </u-card>
-        </header>
-        <div ref="articleEl" class="relative w-full flex flex-row items-start gap-4">
-            <ContentRenderer id="content" :value="data" class="markdown-content flex-1" />
-            <ArticleMenu v-if="data?.body?.toc" :toc="data?.body.toc" :links="cast<ArticlesCollectionItem[]>(links)" />
+                                </div> -->
+              </div>
+              <div class="flex flex-row gap-2 items-center flex-wrap">
+                <!-- <u-badge v-for="k in data?.tags" color="primary" variant="soft">{{ k }}</u-badge> -->
+                <u-badge
+                  v-if="data?.tags?.length == 2"
+                  color="primary"
+                  variant="soft"
+                  >{{ data.tags[1] }}</u-badge
+                >
+              </div>
+            </div>
+            <div class="flex flex-row items-center gap-4">
+              <p class="flex flex-row items-center gap-1 typ-label">
+                <icon name="material-symbols:calendar-today-rounded" class="text-primary"></icon>
+                {{ dayjs(data?.date).format("DD MMM YYYY") }}
+              </p>
+              <p class="flex flex-row items-center gap-1 typ-label">
+                <icon name="material-symbols:alarm-rounded" class="text-primary"></icon>
+                {{ readingTimeText }}
+              </p>
+            </div>
+          </div>
         </div>
-    </article>
+      </u-card>
+    </header>
+    <div ref="articleEl" class="relative w-full flex flex-row items-start gap-4">
+      <ContentRenderer id="content" :value="data" class="markdown-content flex-1" />
+      <ArticleMenu
+        v-if="data?.body?.toc"
+        :toc="data?.body.toc"
+        :links="cast<ArticlesCollectionItem[]>(links)"
+      />
+    </div>
+  </article>
 </template>
 
 <script lang="ts" setup>

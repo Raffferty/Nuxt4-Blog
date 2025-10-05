@@ -1,21 +1,30 @@
 <template>
-    <nav class="relative select-none max-h-[75svh] w-full overflow-y-auto">
-        <motion.div
-            class="absolute w-[1px] bg-primary rounded-md left-0 z-[30000]!"
-            :transition="{ duration: 0.1 }"
-            :animate="{ top: indicatorStyle.top, height: indicatorStyle.height }"
-        ></motion.div>
-        <ul ref="navEl" class="flex flex-col items-stretch w-full text-sm overflow-y-auto scrollbar" :class="{ 'pl-4': !hideIndicator }">
-            <li :id="`link-${t.id}`" v-for="(t, i) in flattenLinks" :title="t.text" class="w-full flex flex-col py-1">
-                <a
-                    :href="'#' + t.id"
-                    class="block w-full whitespace-nowrap overflow-hidden text-ellipsis text-muted hover:text-default"
-                    :class="{ 'text-primary!': visibilityMap[t.id]?.visible, 'pl-4': t.depth > 2 }"
-                    >{{ t.text }}</a
-                >
-            </li>
-        </ul>
-    </nav>
+  <nav class="relative select-none max-h-[75svh] w-full overflow-y-auto">
+    <motion.div
+      class="absolute w-[1px] bg-primary rounded-md left-0 z-[30000]!"
+      :transition="{ duration: 0.1 }"
+      :animate="{ top: indicatorStyle.top, height: indicatorStyle.height }"
+    ></motion.div>
+    <ul
+      ref="navEl"
+      class="flex flex-col items-stretch w-full text-sm overflow-y-auto scrollbar"
+      :class="{ 'pl-4': !hideIndicator }"
+    >
+      <li
+        :id="`link-${t.id}`"
+        v-for="(t, i) in flattenLinks"
+        :title="t.text"
+        class="w-full flex flex-col py-1"
+      >
+        <a
+          :href="'#' + t.id"
+          class="block w-full whitespace-nowrap overflow-hidden text-ellipsis text-muted hover:text-default"
+          :class="{ 'text-primary!': visibilityMap[t.id]?.visible, 'pl-4': t.depth > 2 }"
+          >{{ t.text }}</a
+        >
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script lang="ts" setup>

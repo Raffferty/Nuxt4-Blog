@@ -1,12 +1,12 @@
 <template>
-    <u-card id="author-about" variant="soft" class="mt-16">
-        <template #header>
-            <div class="flex flex-col gap-2">
-                <p class="font-bold text-highlighted">About the author</p>
-                <slot name="body"></slot>
-            </div>
-        </template>
-        <template #footer>
+  <u-card id="author-about" variant="soft" class="mt-16">
+    <template #header>
+      <div class="flex flex-col gap-2">
+        <p class="font-bold text-highlighted">About the author</p>
+        <!-- <slot name="body"></slot> -->
+      </div>
+    </template>
+    <!-- <template #footer>
             <div class="flex items-center gap-2">
                 <u-avatar :src="src"></u-avatar>
                 <p class="typ-label">{{ name }}</p>
@@ -14,8 +14,8 @@
                     <slot name="actions"></slot>
                 </div>
             </div>
-        </template>
-    </u-card>
+        </template> -->
+  </u-card>
 </template>
 
 <script lang="ts" setup>
