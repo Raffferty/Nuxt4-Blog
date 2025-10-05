@@ -2,5 +2,5 @@
 User-agent: *
 Disallow: 
 
-Sitemap: https://github.com/tratteo/nuxt_template/sitemap.xml
+Sitemap: http://localhost/sitemap.xml
 # END nuxt-robots
