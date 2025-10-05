@@ -41,6 +41,14 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxt/icon',
   ],
+  icon: {
+    clientBundle: {
+      // ✅ auto-detects used icons
+      scan: true,
+      // or list families explicitly:
+      // icons: ['material-symbols']
+    },
+  },
   colorMode: {
     preference: 'dark', // default theme (if no preference in localStorage)
     fallback: 'dark', // fallback when system preference is unavailable
